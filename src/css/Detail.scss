@@ -1,0 +1,32 @@
+@import './reset.scss';
+$mainColor :  #ff0000;
+@mixin alert(){
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+.red{
+    color : $mainColor;
+}
+.my-alert{
+    @include alert()
+}
+.my-alert_red{
+    @extend .my-alert;
+    background-color: #ffe591;
+}
+.my-alert p{
+    margin-bottom: 0;
+}
+container{
+    h4{
+        color: blue;
+    }
+    p{
+        color: green;
+    }
+}
+

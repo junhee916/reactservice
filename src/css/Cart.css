@@ -1,0 +1,4 @@
+.cart_table_row{
+    display:  flex;
+    flex-direction: row;
+}

@@ -1,0 +1,17 @@
+.main_move_detail{
+    color: blue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.main_move_detail:hover{
+    color: tomato;
+}
+.main_row_like{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.main_like_color{
+    color: red;
+    font-weight: bolder;
+}
